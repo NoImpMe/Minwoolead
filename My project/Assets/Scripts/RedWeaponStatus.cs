@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class RedWeaponStatus : MonoBehaviour
@@ -7,6 +8,7 @@ public class RedWeaponStatus : MonoBehaviour
     public double weaponDamage = 1;
     public double bossDamage = 0;
     public double denyDefence = 0;
+    
 
     public double Attack()
     {
